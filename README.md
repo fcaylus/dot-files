@@ -95,4 +95,10 @@ Hex Fiend
 Lens
 Robo 3T
 Wireshark
+XCode
 ```
+
+## Other
+
+- [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) (for symbols inside the terminal
+- `itemr2` color profile: import from `iterm2-profile.json`
