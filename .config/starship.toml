@@ -1,0 +1,28 @@
+[gcloud]
+format = 'on [$symbol$account(@$domain)(\($project\))(\[$region\])]($style) '
+[gcloud.region_aliases]
+asia-east1 = "ae1"
+asia-east2 = "ae2"
+asia-northeast1 = "ane1"
+asia-northeast2 = "ane2"
+asia-northeast3 = "ane3"
+asia-south1 = "as1"
+asia-southeast1 = "ase1"
+asia-southeast2 = "ase2"
+australia-southeast1 = "ause1"
+europe-central2 = "ec2"
+europe-west1 = "ew1"
+europe-west2 = "ew2"
+europe-west3 = "ew3"
+europe-west4 = "ew4"
+europe-west6 = "ew6"
+northamerica-northeast1 = "nane1"
+southamerica-east1 = "sae1"
+us-central1 = "uc1"
+us-east1 = "ue1"
+us-east4 = "ue4"
+us-west1 = "uw1"
+us-west2 = "uw2"
+us-west3 = "uw3"
+us-west4 = "uw4"
+
