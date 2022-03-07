@@ -101,4 +101,4 @@ XCode
 ## Other
 
 - [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) (for symbols inside the terminal
-- `itemr2` color profile: import from `iterm2-profile.json`
+- `iterm2` color profile: import from `iterm2-profile.json`
