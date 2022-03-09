@@ -98,6 +98,14 @@ Wireshark
 XCode
 ```
 
+## `kubectl` plugins
+
+Installed using `krew` ([installation steps for `fish`](https://krew.sigs.k8s.io/docs/user-guide/setup/install/#fish)).
+
+Plugins:
+- [`tree`](https://github.com/ahmetb/kubectl-treek)
+
+
 ## Other
 
 - [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) (for symbols inside the terminal
