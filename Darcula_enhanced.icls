@@ -1,0 +1,12 @@
+<scheme name="Darcula enhanced" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2022-03-10T19:54:11</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2021.3.2.0.0</property>
+    <property name="modified">2022-03-10T19:54:15</property>
+    <property name="originalScheme">Darcula enhanced</property>
+  </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="FiraCode Nerd Font Mono" />
+  <option name="CONSOLE_LINE_SPACING" value="1.2" />
+</scheme>

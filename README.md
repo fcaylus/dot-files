@@ -12,6 +12,7 @@
 - [`fd`](https://github.com/sharkdp/fd) (`find` alternative)
 - [`delta`](https://github.com/dandavison/delta) (`diff` alternative)
 - [`ripgrep`](https://github.com/BurntSushi/ripgrep) (`grep` alternative)
+- "ayu Mirage" fish shell theme (using `fish_config`)
 
 > Yes, all these commands are written in Rust, what a coincidence !
 
@@ -110,3 +111,4 @@ Plugins:
 
 - [FiraCode Nerd Font](https://www.nerdfonts.com/font-downloads) (for symbols inside the terminal
 - `iterm2` color profile: import from `iterm2-profile.json`
+- IntelliJ color scheme: import from `Darcula_enhanced.icls` (same as `Darcula`, but using the `FiraCode Nerd Font Mono` font for terminal)
