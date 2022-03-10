@@ -16,6 +16,10 @@ alias la="exa -la"
 
 alias kl="kubectl logs"
 
+# Java aliases 
+alias mvn8 "JAVA_HOME=(/usr/libexec/java_home -v 1.8) mvn"
+alias mvn11 "JAVA_HOME=(/usr/libexec/java_home -v 11) mvn"
+
 #
 # gcloud
 #
@@ -37,11 +41,15 @@ fish_add_path /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin
 # fish_add_path /usr/local/opt/openjdk/bin
 # fish_add_path /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/bin
 # fish_add_path /Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/bin
-# set -g JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/bin
 
-set -g JAVA16_HOME /Users/fabien/Library/Java/JavaVirtualMachines/azul-16.0.2/Contents/Home
+#set -g JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/bin
+
+#set -g JAVA16_HOME /Users/fabien/Library/Java/JavaVirtualMachines/azul-16.0.2/Contents/Home
+
 
 fish_add_path /usr/local/opt/php@7.4/bin
 fish_add_path /usr/local/opt/php@7.4/sbin
 
 fish_add_path /usr/local/opt/helm@2/bin
+
+fish_add_path $HOME/.krew/bin
