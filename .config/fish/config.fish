@@ -61,11 +61,10 @@ fish_add_path $HOME/.linkerd2/bin
 
 
 if status is-interactive
-  if set -q ZELLIJ 
-  else
-    if set -q __INTELLIJ_COMMAND_HISTFILE__
-    else
-      zellij
-    end
-  end
+  and not set -q ZELLIJ
+  and not set -q __INTELLIJ_COMMAND_HISTFILE__
+  and test "$TERM_PROGRAM" != "Lens"
+  zellij
 end
+
+
