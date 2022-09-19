@@ -20,6 +20,8 @@ alias kl="kubectl logs"
 alias mvn8 "JAVA_HOME=(/usr/libexec/java_home -v 1.8) mvn"
 alias mvn11 "JAVA_HOME=(/usr/libexec/java_home -v 11) mvn"
 
+nvm use 16
+
 #
 # gcloud
 #
@@ -35,7 +37,8 @@ if [ -f '/Users/fabien/google-cloud-sdk/completion.fish.inc' ]; source '/Users/f
 # Path variables
 #
 
-fish_add_path /Users/fabien/go/bin /usr/local/opt/node@12/bin /Users/fabien/.cargo/bin
+fish_add_path /Users/fabien/go/bin 
+fish_add_path /Users/fabien/.cargo/bin
 
 fish_add_path /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin
 # fish_add_path /usr/local/opt/openjdk/bin
@@ -53,3 +56,16 @@ fish_add_path /usr/local/opt/php@7.4/sbin
 fish_add_path /usr/local/opt/helm@2/bin
 
 fish_add_path $HOME/.krew/bin
+
+fish_add_path $HOME/.linkerd2/bin
+
+
+if status is-interactive
+  if set -q ZELLIJ 
+  else
+    if set -q __INTELLIJ_COMMAND_HISTFILE__
+    else
+      zellij
+    end
+  end
+end
