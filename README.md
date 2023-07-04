@@ -88,6 +88,7 @@ Other applications (manualy installed):
 ```
 brew
 rustup
+kubent
 
 Docker Desktop
 JetBrains Toolbox
