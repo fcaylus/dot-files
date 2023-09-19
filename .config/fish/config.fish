@@ -41,24 +41,10 @@ fish_add_path /Users/fabien/go/bin
 fish_add_path /Users/fabien/.cargo/bin
 
 fish_add_path /Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin
-# fish_add_path /usr/local/opt/openjdk/bin
-# fish_add_path /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/bin
-# fish_add_path /Library/Java/JavaVirtualMachines/openjdk.jdk/Contents/Home/bin
-
-#set -g JAVA_HOME /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home/jre/bin
-
-#set -g JAVA16_HOME /Users/fabien/Library/Java/JavaVirtualMachines/azul-16.0.2/Contents/Home
-
-
-fish_add_path /usr/local/opt/php@7.4/bin
-fish_add_path /usr/local/opt/php@7.4/sbin
 
 fish_add_path /usr/local/opt/helm@2/bin
 
 fish_add_path $HOME/.krew/bin
-
-fish_add_path $HOME/.linkerd2/bin
-
 
 if status is-interactive
   and not set -q ZELLIJ
@@ -66,5 +52,3 @@ if status is-interactive
   and test "$TERM_PROGRAM" != "Lens"
   zellij
 end
-
-
