@@ -49,6 +49,8 @@ fish_add_path $HOME/.krew/bin
 if status is-interactive
   and not set -q ZELLIJ
   and not set -q __INTELLIJ_COMMAND_HISTFILE__
+  and not set -q FIG_JETBRAINS_SHELL_INTEGRATION
+  and not set -q IDEA_INITIAL_DIRECTORY
   and test "$TERM_PROGRAM" != "Lens"
   zellij
 end
